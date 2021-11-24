@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="Practice1.css" />
+    <link rel="stylesheet" href="font/fontello.css" />
     <title>Практика по CSS</title>
   </head>
   <body>
@@ -54,6 +55,17 @@
     <h2>Анимация тающего шоколада</h2>
     <div class="kakao-bg">
       <h1 class="kakao">Chocolate</h1>
+    </div>
+
+    <h2>Поле для ввода пароля с переключением видимости пароля</h2>
+    <div class="input-wrapper">
+      <input type="password" id="password" placeholder="Введите пароль" />
+      <div class="input-icon" id="icon" onclick="togglePassword()">
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/159/159604.png"
+          alt="Глаз"
+        />
+      </div>
     </div>
     <script src="script.js"></script>
   </body>
